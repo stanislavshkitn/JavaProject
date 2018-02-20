@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Главная</title>
+    <title>Главная теста</title>
 </head>
 <body>
 <h2>Hello World!</h2>
