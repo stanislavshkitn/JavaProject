@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+// Connecting
 public class BaseConnectToMySQL {
     protected static final String url = "jdbc:mysql://localhost:3306/db_java_project?characterEncoding=utf-8";
     protected static final String user = "user";
