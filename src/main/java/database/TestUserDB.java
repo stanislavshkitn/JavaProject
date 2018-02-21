@@ -66,6 +66,8 @@ public class TestUserDB extends BaseConnectToMySQL {
             }catch (SQLException e){
                 System.out.print("(error) While working with database 4");
                 e.printStackTrace();
+            }finally{
+                toDisconnect();
             }
         }
 
