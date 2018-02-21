@@ -41,7 +41,7 @@ public class TestUserDB extends BaseConnectToMySQL {
     }
 
     public static void createToDB(TestUser user){
-        toConnect();
+        toConnect(); 
         try {
             String first_name = user.getFirst_name();
             String last_name = user.getLast_name();
